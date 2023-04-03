@@ -1,0 +1,27 @@
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1325px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row > *{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 25px;
+    padding-right: 10px;
+  }
+  }
+@media (min-width: 320px) and (max-width: 1023px){
+  .row{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .col-12{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
